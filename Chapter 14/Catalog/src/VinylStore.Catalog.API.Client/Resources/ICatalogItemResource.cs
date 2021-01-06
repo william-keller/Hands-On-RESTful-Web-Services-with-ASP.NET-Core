@@ -7,6 +7,6 @@ namespace VinylStore.Catalog.API.Client.Resources
 {
     public interface ICatalogItemResource
     {
-        Task<ItemResponse> Get(Guid id, CancellationToken cancellationToken = default(CancellationToken));
+        Task<ItemResponse> Get(Guid id, CancellationToken cancellationToken = default);
     }
 }
